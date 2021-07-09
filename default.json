@@ -5,8 +5,9 @@
   "hostRules": [
     {
       "matchHost": "github.com",
+      "username": "vytautaskubilius",
       "encrypted": {
-        "token": "HOFenBChg/kV5MblMu13oh8U8GxSnWMlJbOEzuCgtPkhcrCQUuqXRZ/5ruo9pqWgLqIQYCTZrjEq98FOUyJYzyC+U03ezL8Sxp7944CK7krL3HGbT/S0JlEb2OskiFLHsZdS9AkF9C8boU9OGkK1zdFjddrdvr2iquAQHYeeuV1y+jSYpElqNdKVVjDwsTJdgYg3ev/xu2VcvWaCxSpYTmeEVZXYpn2Ggg06pa4po2rLGcHwhhKaqcskk5AStvqMvcVsxP+zUaP2fJ95F4ChnKM1w1/0+bX8qccAXl5KTsttkxd41aaddK/tAR5IZFuNxjKHeM7rBBMvUrjP3TgXow=="
+        "password": "HOFenBChg/kV5MblMu13oh8U8GxSnWMlJbOEzuCgtPkhcrCQUuqXRZ/5ruo9pqWgLqIQYCTZrjEq98FOUyJYzyC+U03ezL8Sxp7944CK7krL3HGbT/S0JlEb2OskiFLHsZdS9AkF9C8boU9OGkK1zdFjddrdvr2iquAQHYeeuV1y+jSYpElqNdKVVjDwsTJdgYg3ev/xu2VcvWaCxSpYTmeEVZXYpn2Ggg06pa4po2rLGcHwhhKaqcskk5AStvqMvcVsxP+zUaP2fJ95F4ChnKM1w1/0+bX8qccAXl5KTsttkxd41aaddK/tAR5IZFuNxjKHeM7rBBMvUrjP3TgXow=="
       }
     }
   ]
