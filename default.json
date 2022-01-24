@@ -2,6 +2,12 @@
   "extends": [
     "config:base"
   ],
+  "schedule": [
+    "every weekend"
+  ],
+  "assignees": [
+    "vytautaskubilius"
+  ],
   "hostRules": [
     {
       "matchHost": "github.com",
