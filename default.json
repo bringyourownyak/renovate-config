@@ -2,6 +2,7 @@
   "username": "vytautaskubilius",
   "gitAuthor": "Renovate Bot <vytautas.kubilius+renovate-bot@dontpanic.lt>",
   "repositories": [
+    "vytautaskubilius/renovate-config",
     "vytautaskubilius/cloud-nuke-live"
   ],
   "onboardingConfig": {
