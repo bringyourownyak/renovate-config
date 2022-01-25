@@ -11,6 +11,9 @@ on:
 jobs:
   renovate-dry-run:
     runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    concurrency:
+      group: ${{ github.ref }}
 
     steps:
       - name: Checkout
@@ -28,6 +31,7 @@ jobs:
 
   renovate:
     runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
 
     steps:
       - name: Checkout
