@@ -1,20 +1,15 @@
 {
-  "extends": [
-    "config:base"
+  "username": "vytautaskubilius",
+  "gitAuthor": "Renovate Bot <vytautas.kubilius+renovate-bot@dontpanic.lt>",
+  "repositories": [
+    "vytautaskubilius/cloud-nuke-live"
   ],
-  "schedule": [
-    "every weekend"
-  ],
+  "onboardingConfig": {
+    "extends": [
+      "config:base"
+    ]
+  },
   "assignees": [
     "vytautaskubilius"
-  ],
-  "hostRules": [
-    {
-      "matchHost": "github.com",
-      "username": "vytautaskubilius",
-      "encrypted": {
-        "password": "wcFMA/xDdHCJBTolAQ/8D+ZfhZo2tQzr6la4bfLOoh8Y3Wz3Yc3uZnSnNpMUJFdGmfZt7pJxQfYpGbIGXH91syceajm5JtF/L2D2ravBEb4HvnawXmlbHzBvIYHEhCjgyjzi+skqHyK7dWe5yn9Hn70VaM8Qb6aUhkOIV3yUnMikuMzlwYz3L1kViGcH3AtXNmQKNMvfjvJtNBk+YnbTsq3o5Yxlkiv3XuzeJQq3waPb4bDalX9V3p+4sSQ9GN1EEKYcCCMrURRhaMQsW97oKsVgklLMCR6BExyvDaEsE/OQWGeZjzaTirJNhf3Q+0l/2ukBP4HN1AnElMBSAX3tR3/HXLPlMI2slRr2XR8Ka/nZo6ZoOFtjkkjW0Q5CfR0omI9xfxZpfn1rppkQh5jWqkyaZvbSgEv9njSjVDe5ed+RSt6gf+DMt4zd0oWyjyrM8IhoQticRuT4d9A4OwAM1Z8nnaXtJoZB8morn2iQzLVrQSg2Lq0zxA5heZrVYy0yIsVkKNZWuuzv5+8oiLOUOFOaS9cc85u7BJInfXJTmTNvyr3DRw5cWvDuJLEkiZpEPg3ctETEZzm6rStQPFjf1JUwllR2zFhehnoeT5P0MFS20F4phr8MTq9qcnMEf7dHyJP4GychS8jhvauEsY7toz6v1cTKEFITfk74sroeuyohE/j9mAoz50A+GBkrwRnSfwF++vad/JrKpV2smFHP/D0wLPtMqYviX1vBGpSiIhh7Gh42G9LoVjchdlYTvBXzHlWXkqZ/z8na1fN5YWCxzKUSQTV5FhE2FSiXyNpYWHmTSmEaOQxjBblp0X2kNWM95n6qO+ysnWEKLqW8m+UuMVOwTiGkd9jqfZNN6BHztBg"
-      }
-    }
   ]
 }
