@@ -3,9 +3,29 @@ name: Renovate
 on:
   schedule:
     - cron: '0/15 * * * *'
+  push:
+    branches:
+      - '**'
   workflow_dispatch:
 
 jobs:
+  renovate-dry-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.4.0
+
+      - name: Set dryRun to true
+        run: |
+          cat default.json | jq --arg dryRun true '. + {dryRun: $dryRun}' > default-dry-run.json
+
+      - name: Self-hosted Renovate
+        uses: renovatebot/github-action@v31.14.1
+        with:
+          configurationFile: default-dry-run.json
+          token: ${{ secrets.RENOVATE_TOKEN }}
+
   renovate:
     runs-on: ubuntu-latest
 
