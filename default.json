@@ -3,7 +3,8 @@
   "gitAuthor": "Renovate Bot <vytautas.kubilius+renovate-bot@dontpanic.lt>",
   "repositories": [
     "vytautaskubilius/renovate-config",
-    "vytautaskubilius/cloud-nuke-live"
+    "vytautaskubilius/cloud-nuke-live",
+    "vytautaskubilius/terraform-test"
   ],
   "onboardingConfig": {
     "extends": [
