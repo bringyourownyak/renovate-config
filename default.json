@@ -4,7 +4,7 @@
   "repositories": [
     "vytautaskubilius/renovate-config",
     "vytautaskubilius/cloud-nuke-live",
-    "vytautaskubilius/terraform-test"
+    "vytautaskubilius/demo-20220127"
   ],
   "onboardingConfig": {
     "extends": [
