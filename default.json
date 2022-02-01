@@ -9,6 +9,14 @@
   "onboardingConfig": {
     "extends": [
       "config:base"
+    ],
+    "packageRules": [
+      {
+        "matchUpdateTypes": [
+          "patch"
+        ],
+        "automerge": true
+      }
     ]
   },
   "assignees": [
