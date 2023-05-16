@@ -10,7 +10,7 @@ on:
 
 jobs:
   renovate-dry-run:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     if: github.event_name == 'push'
     concurrency:
       group: ${{ github.ref }}
@@ -30,7 +30,7 @@ jobs:
           token: ${{ secrets.RENOVATE_TOKEN }}
 
   renovate:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
 
     steps:
